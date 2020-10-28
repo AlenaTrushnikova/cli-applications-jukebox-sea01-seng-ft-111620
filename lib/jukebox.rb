@@ -52,6 +52,7 @@ def exit_jukebox
   puts "Goodbye"
 end  
 
+=begin
 def run(songs)
   puts "Please enter a command:"
   command = gets.strip
@@ -66,3 +67,5 @@ def run(songs)
   else puts "Invalid entry"
   end
 end
+=end
+
