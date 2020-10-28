@@ -57,13 +57,13 @@ def run(songs)
     puts "Please enter a command:"
     command = gets.strip
     case command
-    if command == "exit"
+    when command == "exit"
       exit_jukebox
-    elsif command == "help"
+    when command == "help"
       help
-    elsif command == "list"
+    when command == "list"
       list(songs)
-    elsif command == "play"
+    when command == "play"
       play(songs)
     else
       puts "Invalid entry"
