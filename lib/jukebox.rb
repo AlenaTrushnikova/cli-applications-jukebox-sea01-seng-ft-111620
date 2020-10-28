@@ -65,7 +65,6 @@ def run(songs)
       elsif command == "play"
         play(songs)
     end    
-    else
-      puts "Invalid entry"
+    puts "Invalid entry"
   end
 end
